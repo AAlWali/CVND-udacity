@@ -29,7 +29,7 @@ unzip -n data/train-test-data.zip -d data
 
 ### Model Download
 
-You can use my pre-trained model for your own experimentation. To use it, [download]() the model and placed in the subdirectory `saved_models`.
+You can use my pre-trained model for your own experimentation. To use it, [download](https://www.dropbox.com/s/gk4j0ln3huqt93e/keypoints_model_1.pt?dl=0) the model and placed in the subdirectory `saved_models`.
 
 ## Result
 
