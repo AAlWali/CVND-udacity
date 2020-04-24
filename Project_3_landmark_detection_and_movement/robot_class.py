@@ -92,8 +92,8 @@ class robot:
         ##    as list.append([index, dx, dy]), this format is important for data creation done later
         
             ## (1.) && (2.)
-            dx = (self.x - self.landmarks[i][0]) + self.rand() * self.measurement_noise
-            dy = (self.y - self.landmarks[i][1]) + self.rand() * self.measurement_noise
+            dx = (self.landmarks[i][0] - self.x) + self.rand() * self.measurement_noise
+            dy = (self.landmarks[i][1] - self.y) + self.rand() * self.measurement_noise
             
             ## (3.)
             
